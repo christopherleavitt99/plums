@@ -1,7 +1,7 @@
 export default function header(){
     return (
-        <nav>
-            <ul>
+        <nav className="bg-blue-300 py-3">
+            <ul className="flex justify-around">
                 <li>Home</li>
                 <li>Page 1</li>
                 <li>Page 2</li>
