@@ -1,6 +1,6 @@
 interface Person {
-    name: string;
-    age: number;
+  name: string;
+  age: number;
 }
 
-export default Person
+export default Person;
