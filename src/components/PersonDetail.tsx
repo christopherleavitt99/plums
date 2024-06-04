@@ -1,6 +1,6 @@
 import Person from "@/data/person.model";
 
-function PersonDetail(props: Person) {
-    return <h1></h1>
+function PersonDetail(props: { person: Person }) {
+  return <h1>{props.person.name}</h1>;
 }
 export default PersonDetail;
