@@ -79,7 +79,7 @@ export default async function DynamicRoute({params}: {params: {id: string};}) {
           </div>
           <div className=" flex flex-col gap-y-2">
             <Label>Description</Label>
-            <Textarea
+            <textarea
               name="description"
               placeholder="Describe your note"
               required
