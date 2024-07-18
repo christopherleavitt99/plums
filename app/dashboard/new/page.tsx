@@ -15,6 +15,8 @@ import { Textarea } from "@/components/ui/textarea";
 import Link from "next/link";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { redirect } from "next/navigation";
+import hyperlinkintext from "@/app/components/hyperlinkintext";
+
 
 export default async function NewNoteRoute() {
   const { getUser } = getKindeServerSession();
@@ -64,7 +66,7 @@ export default async function NewNoteRoute() {
               name="description"
               placeholder="Describe your note"
               required
-            />
+              />
           </div>
         </CardContent>
         <CardFooter className="flex justify-between">

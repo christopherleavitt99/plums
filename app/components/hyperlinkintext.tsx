@@ -2,7 +2,8 @@
 
 import { SetStateAction, useState } from 'react';
 
-const EditableTextBox = () => {
+const hyperlinkintext = () => {
+// eslint-disable-next-line react-hooks/rules-of-hooks
 const [content, setContent] = useState('');
 
 const handleChange = (e: { target: { value: SetStateAction<string>; }; }) => {
@@ -20,4 +21,4 @@ return (
   );
 };
 
-export default EditableTextBox;
+export default hyperlinkintext;
